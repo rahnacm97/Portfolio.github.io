@@ -32,7 +32,7 @@ function validateMail(){
         return false;
     }
 
-    if(!email.match(/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/)){
+    if(!email.match(/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/)){
         emailError.innerHTML = 'Email Invalid';
         return false;
     }
